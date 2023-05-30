@@ -1,27 +1,45 @@
-# MyFirstProject
+# To-Do List App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+This is a simple to-do list application built with Angular. It allows users to create and manage their daily tasks in an organized manner.
 
-## Development server
+## Live preview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[Live Demo](https://todo-list-using-angular.netlify.app/)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Create a new task with a title and description
+- Delete tasks
+- Tasks are stored on localstorage
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository: `git clone https://github.com/your-username/todo-list-app.git`
+2. Navigate to the project directory: `cd todo-list-app`
+3. Install the dependencies: `npm install`
 
-## Running unit tests
+## Usage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Start the development server: `ng serve`
+2. Open your browser and visit: `http://localhost:4200`
+3. You will be redirected to the to-do list app homepage.
+4. To create a new task, enter the task title then click on the "Add" button
+5. To delete a task, click on the "Delete" button.
 
-## Running end-to-end tests
+## Contributing
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-## Further help
+1. Fork the repository
+2. Create a new branch: `git checkout -b my-feature-branch`
+3. Make your changes and commit them: `git commit -am 'Add some feature'`
+4. Push the changes to your branch: `git push origin my-feature-branch`
+5. Submit a pull request
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact me at your-email@example.com.
